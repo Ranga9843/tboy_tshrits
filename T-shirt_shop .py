@@ -107,8 +107,8 @@ def bill(email, total):
 
 def send_email(email, total):
     try:
-        sender_email = "your_email@example.com"  # Replace with your email address
-        sender_password = "your_password"  # Replace with your email password
+        sender_email = "ranganathanm9324@gmail.com"  # Replace with your email address
+        sender_password = ""  # Replace with your email password
         
         # Connect to the Gmail SMTP server
         with smtplib.SMTP("smtp.gmail.com", 587) as server:
